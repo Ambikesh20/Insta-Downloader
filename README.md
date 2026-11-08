@@ -1,29 +1,119 @@
-# Welcome to your Lovable project
+# 📸 Insta Downloader
 
-This project was built with [Lovable](https://lovable.dev).
+A modern and user-friendly Instagram Downloader web application built with modern web technologies. It provides a simple interface to download supported Instagram content quickly and easily.
 
-## Build with Lovable
+## ✨ Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+- 📥 Simple and easy-to-use downloader interface
+- 🎨 Modern and responsive UI
+- ⚡ Fast and lightweight application
+- 📱 Mobile-friendly design
+- 🔗 Easy-to-use URL input
+- 🧩 Built with modern frontend technologies
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## 🛠️ Tech Stack
 
-## Development
+- **Frontend:** React / TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Package Manager:** Bun / npm
+- **Code Quality:** ESLint
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 🚀 Getting Started
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/insta-downloader.git
+```
+
+### 2. Navigate to Project Folder
+
+```bash
+cd insta-downloader
+```
+
+### 3. Install Dependencies
+
+Using npm:
+
+```bash
+npm install
+```
+
+Or using Bun:
+
+```bash
+bun install
+```
+
+### 4. Start Development Server
+
+Using npm:
+
+```bash
 npm run dev
 ```
 
-## Built with
+Or using Bun:
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+```bash
+bun run dev
+```
+
+### 5. Open in Browser
+
+Visit:
+
+```text
+http://localhost:5173/
+```
+
+## 📂 Project Structure
+
+```text
+insta-downloader/
+│
+├── public/          # Static assets
+├── src/             # Application source code
+├── AGENTS.md        # Project instructions
+├── package.json     # Project dependencies
+├── bun.lock         # Bun lock file
+├── bunfig.toml      # Bun configuration
+├── tsconfig.json    # TypeScript configuration
+├── vite.config.ts   # Vite configuration
+├── eslint.config.js # ESLint configuration
+└── README.md        # Project documentation
+```
+
+## 📦 Build for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+## ⚠️ Disclaimer
+
+This project is intended for educational and personal use. Users should respect Instagram's terms of service, copyright laws, and content ownership. Only download content when you have the necessary permission.
+
+## 👨‍💻 Author
+
+**Abhi Knowledge**
+
+- GitHub: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
+
+**Made with ❤️ and modern web technologies.**
