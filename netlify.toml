@@ -1,0 +1,7 @@
+[build]
+  # node_modules is committed to the repo and its .bin shims aren't executable,
+  # so invoke Vite's entry script through Node directly.
+  command = "node node_modules/vite/bin/vite.js build"
+  # Nitro's `netlify` preset writes static assets to dist/ and the SSR
+  # function to .netlify/functions-internal (picked up automatically).
+  publish = "dist"
