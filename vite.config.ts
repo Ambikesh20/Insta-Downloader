@@ -12,4 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Deploy target for Netlify builds. Inside the Lovable sandbox this is
+  // overridden to cloudflare-module automatically, so Lovable previews still work.
+  nitro: { preset: "netlify" },
 });
